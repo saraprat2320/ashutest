@@ -1,96 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-21T13:58:10 IST" name="Default suite" finished-at="2026-02-21T13:58:23 IST" duration-ms="13321">
+  <suite started-at="2026-02-21T20:00:32 IST" name="Suite" finished-at="2026-02-21T20:00:45 IST" duration-ms="12365">
     <groups>
     </groups>
-    <test started-at="2026-02-21T13:58:10 IST" name="Default test" finished-at="2026-02-21T13:58:23 IST" duration-ms="13321">
-      <class name="ashu.ashutest.Makemytrip">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ashu.ashutest.Makemytrip@26d9b808]" started-at="2026-02-21T13:58:10 IST" name="setUp" finished-at="2026-02-21T13:58:14 IST" duration-ms="3741" status="PASS">
+    <test started-at="2026-02-21T20:00:32 IST" name="Test" finished-at="2026-02-21T20:00:45 IST" duration-ms="12365">
+      <class name="ashu.ashutest.testclass">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:32 IST" name="launchDriver" finished-at="2026-02-21T20:00:35 IST" duration-ms="3216" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Booking()[pri:0, instance:ashu.ashutest.Makemytrip@26d9b808]" started-at="2026-02-21T13:58:14 IST" name="Booking" finished-at="2026-02-21T13:58:23 IST" duration-ms="9418" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7288f2db34acb5397b456875cee994f8, findElement {using=id, value=fromCity}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\PRATEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55626}, goog:processID: 3408, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55626/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7288f2db34acb5397b456875cee994f8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7288f2db34acb5397b456875cee994f8, findElement {using=id, value=fromCity}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\PRATEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55626}, goog:processID: 3408, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55626/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7288f2db34acb5397b456875cee994f8
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at ashu.ashutest.Makemytrip.Booking(Makemytrip.java:64)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        </test-method> <!-- launchDriver -->
+        <test-method signature="test1()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:35 IST" name="test1" finished-at="2026-02-21T20:00:37 IST" duration-ms="1782" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Booking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ashu.ashutest.Makemytrip@26d9b808]" started-at="2026-02-21T13:58:23 IST" name="tearDown" finished-at="2026-02-21T13:58:23 IST" duration-ms="83" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:37 IST" name="quit" finished-at="2026-02-21T20:00:37 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ashu.ashutest.Makemytrip -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:37 IST" name="launchDriver" finished-at="2026-02-21T20:00:39 IST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="test2()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:39 IST" name="test2" finished-at="2026-02-21T20:00:41 IST" duration-ms="2655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:41 IST" name="quit" finished-at="2026-02-21T20:00:41 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:41 IST" name="launchDriver" finished-at="2026-02-21T20:00:43 IST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="test3()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:43 IST" name="test3" finished-at="2026-02-21T20:00:44 IST" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:44 IST" name="quit" finished-at="2026-02-21T20:00:45 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- ashu.ashutest.testclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
