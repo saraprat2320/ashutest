@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-21T20:00:32 IST" name="Suite" finished-at="2026-02-21T20:00:45 IST" duration-ms="12365">
+  <suite started-at="2026-02-23T11:38:55 IST" name="Default suite" finished-at="2026-02-23T11:39:42 IST" duration-ms="46629">
     <groups>
     </groups>
-    <test started-at="2026-02-21T20:00:32 IST" name="Test" finished-at="2026-02-21T20:00:45 IST" duration-ms="12365">
-      <class name="ashu.ashutest.testclass">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:32 IST" name="launchDriver" finished-at="2026-02-21T20:00:35 IST" duration-ms="3216" status="PASS">
+    <test started-at="2026-02-23T11:38:55 IST" name="Default test" finished-at="2026-02-23T11:39:42 IST" duration-ms="46629">
+      <class name="ashu.ashutest.SalesforceLeadTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ashu.ashutest.SalesforceLeadTest@53fb3dab]" started-at="2026-02-23T11:38:55 IST" name="setUp" finished-at="2026-02-23T11:39:04 IST" duration-ms="9128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchDriver -->
-        <test-method signature="test1()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:35 IST" name="test1" finished-at="2026-02-21T20:00:37 IST" duration-ms="1782" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithOTP()[pri:0, instance:ashu.ashutest.SalesforceLeadTest@53fb3dab]" started-at="2026-02-23T11:39:04 IST" name="loginWithOTP" finished-at="2026-02-23T11:39:41 IST" duration-ms="36844" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:37 IST" name="quit" finished-at="2026-02-21T20:00:37 IST" duration-ms="257" status="PASS">
+        </test-method> <!-- loginWithOTP -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ashu.ashutest.SalesforceLeadTest@53fb3dab]" started-at="2026-02-23T11:39:41 IST" name="tearDown" finished-at="2026-02-23T11:39:42 IST" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:37 IST" name="launchDriver" finished-at="2026-02-21T20:00:39 IST" duration-ms="1141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchDriver -->
-        <test-method signature="test2()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:39 IST" name="test2" finished-at="2026-02-21T20:00:41 IST" duration-ms="2655" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:41 IST" name="quit" finished-at="2026-02-21T20:00:41 IST" duration-ms="196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:41 IST" name="launchDriver" finished-at="2026-02-21T20:00:43 IST" duration-ms="1194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchDriver -->
-        <test-method signature="test3()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:43 IST" name="test3" finished-at="2026-02-21T20:00:44 IST" duration-ms="1682" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:ashu.ashutest.testclass@5d534f5d]" started-at="2026-02-21T20:00:44 IST" name="quit" finished-at="2026-02-21T20:00:45 IST" duration-ms="180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- ashu.ashutest.testclass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- ashu.ashutest.SalesforceLeadTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
